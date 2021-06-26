@@ -10,6 +10,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 click = "^7.0"
+paho-mqtt = "^1.5"
+gpiozero = "^1.6.2"
 
 # Entrypoints/Scripts Section
 [tool.poetry.scripts]
