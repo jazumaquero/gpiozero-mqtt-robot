@@ -2,8 +2,10 @@
 # E265: block comment should start with '# '
 # E401: multiple imports on one line
 # W503: line break occurred before a binary operator
+# D100: Missing docstring in public module
+# D103: Missing docstring in public function
 # D104: Missing docstring in public package
-ignore = E265,E401,W503,D104
+ignore = E265,E401,W503,D100,D103,D104
 max-line-length = 120
 max-complexity = 10
 format = pylint
