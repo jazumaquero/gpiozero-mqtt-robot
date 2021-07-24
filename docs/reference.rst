@@ -10,7 +10,7 @@ Reference
     :backlinks: none
 
 
-{{ heading( gpiozero_mqtt_robot.__main__) }}
+{{ heading( gpiozero_mqtt_robot) }}
 
-.. automodule:: gpiozero_mqtt_robot.__main__.__main__
+.. automodule:: gpiozero_mqtt_robot.main
    :members:
