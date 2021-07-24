@@ -10,6 +10,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 click = "^7.0"
+paho-mqtt = "^1.5"
+gpiozero = "^1.6.2"
 
 # Entrypoints/Scripts Section
 [tool.poetry.scripts]
@@ -87,7 +89,7 @@ line-length = 120
 # Black configuration to make it work with Flake8.
 extend-ignore = ["E203", "W503"]
 # Extra Black configuration to apply changes only on required files.
-target-version = ["3.8"]
+target-version = ["py38"]
 include = "\\.pyi?$"
 extend-exclude = """
 # A regex preceded with ^/ will apply only to files and directories
